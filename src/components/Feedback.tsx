@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FaQuoteRight } from 'react-icons/fa';
 
 interface Feedback {
@@ -58,7 +59,7 @@ function Feedback() {
                             >
                                 <div className="flex items-center space-x-4">
                                     {/* Feedback Image */}
-                                    <img
+                                    <Image
                                         src={feedback.image}
                                         alt={feedback.name}
                                         className="w-12 h-12 object-cover rounded-full"

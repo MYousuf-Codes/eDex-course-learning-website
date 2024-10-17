@@ -1,5 +1,4 @@
 // Hero.tsx
-import Link from "next/link";
 import Image from "next/image";
 
 const Hero: React.FC = () => {
@@ -36,7 +35,7 @@ const Hero: React.FC = () => {
                 </div>
 
                 <div className="w-full lg:w-1/2">
-                    <img src="/hero.png" alt="Hero Image" className="w-full h-auto object-cover -mt-32" />
+                    <Image src="/hero.png" alt="Hero Image" className="w-full h-auto object-cover -mt-32" />
                 </div>
             </div>
         </section>

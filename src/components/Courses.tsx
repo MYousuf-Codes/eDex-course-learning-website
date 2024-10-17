@@ -1,5 +1,6 @@
 // Courses.tsx
 import React from "react";
+import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -63,7 +64,7 @@ const Courses: React.FC = () => {
                                 <span className="absolute top-2 left-2 bg-gray-200 text-gray-700 text-sm font-semibold px-2 py-1 rounded-lg">
                                     {course.category}
                                 </span>
-                                <img
+                                <Image
                                     src={course.image}
                                     alt={course.title}
                                     className="rounded-t-lg object-cover"

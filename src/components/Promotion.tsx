@@ -19,7 +19,7 @@ const Promotion: React.FC = () => {
         {/* Right Text Section */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-4xl font-bold">
-            Join <span className="text-blue-500">World's largest</span> learning platform today
+            Join <span className="text-blue-500">World&apos;s largest</span> learning platform today
           </h1>
           <p className="text-gray-600 mt-4">
             Start learning by registering for free

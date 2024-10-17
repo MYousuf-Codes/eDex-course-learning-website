@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface Instructor {
   id: number;
@@ -58,7 +59,7 @@ const Instructors: React.FC = () => {
             >
               <div className="relative w-full h-64 pt-2 pl-3 pr-3 rounded-lg overflow-hidden mx-auto mt-4">
                 {/* Instructor Image */}
-                <img
+                <Image
                   src={instructor.image}
                   alt={instructor.name}
                   className="w-full h-full object-cover rounded-lg"
